@@ -1,0 +1,27 @@
+:root {
+  --xxl: 4rem;
+  --xl: 2.25rem;
+  --l: 1.5rem;
+  --m: 1.25rem;
+  --s: 1rem;
+  --xs: 0.5rem;
+  --ten: 6.25rem;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --xxl: 2.5rem;
+    --xl: 2rem;
+    --l: 1.38rem;
+    --m: 1.125rem;
+    --s: 0.88rem;
+    --xs: 0.38rem;
+    --ten: 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --xxl: 3rem;
+  }
+}
